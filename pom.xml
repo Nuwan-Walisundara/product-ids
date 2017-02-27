@@ -1356,21 +1356,23 @@
 		<snapshotRepository>
 			<id>wso2Telco.snapshots</id>
 			<name>Snapshot repo</name>
-			<url>http://maven.wso2telco.com/nexus/content/repositories/snapshots</url>
+			<!--url>http://maven.wso2telco.com/nexus/content/repositories/snapshots</url-->
+			<url>file:///home/nuwan/projects/snapshots/</url>
 		</snapshotRepository>
 		<!-- Publish the versioned releases here -->
 		<repository>
 			<id>wso2telco.releases</id>
 			<name>release repo</name>
-			<url>http://maven.wso2telco.com/nexus/content/repositories/releases/</url>
+			<!--url>http://maven.wso2telco.com/nexus/content/repositories/releases/</url-->
+			<url>file:///home/nuwan/projects/releases/</url>
 		</repository>
 	</distributionManagement>
 
 
 	<scm>
-		<url>https://github.com/WSO2Telco/product-ids.git</url>
-		<developerConnection>scm:git:https://github.com/WSO2Telco/product-ids.git</developerConnection>
-		<connection>scm:git:https://github.com/WSO2Telco/product-ids.git</connection>
+		<url>https://github.com/Nuwan-Walisundara/product-ids.git</url>
+		<developerConnection>scm:git:https://github.com/Nuwan-Walisundara/product-ids.git</developerConnection>
+		<connection>scm:git:https://github.com/Nuwan-Walisundara/product-ids.git</connection>
 		<tag>HEAD</tag>
 	</scm>
 
